@@ -1,0 +1,32 @@
+.active {
+    background-color: #eee;
+}
+
+.container {
+    width: 100%;
+    max-width: 200px;
+    /* margin: 0 auto; */
+    /* height: 50px; */
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.player {
+    border: 1px solid;
+    padding: 20px;
+}
+
+.roll,
+.hold,
+.restart {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+p {
+    max-width: 500px;
+}
